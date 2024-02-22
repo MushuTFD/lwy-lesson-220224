@@ -10,7 +10,7 @@ describe('handler', () => {
     const expectedResponse = {
       statusCode: 200,
       body: JSON.stringify({
-        message: "THIS IS OUR HTTP RESPONSE",
+        message: "LWY Serverless test",
       }, null, 2),
     };
 

@@ -4,11 +4,9 @@ module.exports.handler = async (event) => {
       body: JSON.stringify(
         {
           message: "LWY Serverless test",
-          input: event,
         },
         null,
         2
       ),
     };
   };
-  
