@@ -1,4 +1,4 @@
-service: sls-22-feb
+service: lwy-serverless-app
 frameworkVersion: '3'
 
 provider:
