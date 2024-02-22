@@ -1,17 +1,18 @@
 service: sls-22-feb
-frameworkVersion: 3
+frameworkVersion: '3'
 
 provider:
   name: aws
   runtime: nodejs18.x
+  region: ap-southeast-1
 
 functions:
   api:
-    handler: index.handler 
+    handler: index.handler
     events:
-      -httpAPI:
-        path: /
-        method: get
+      - httpApi:
+          path: /
+          method: get
 
 plugins:
   - serverless-offline
